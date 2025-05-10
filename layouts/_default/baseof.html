@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <!-- head (don't cache it) -->
+    {{ partial "essentials/head.html" . }}
+
+
+    <!-- style (always cache it) -->
+    {{ partialCached "essentials/style.html" . }}
+
+  </head>
+
+  <body  >
+
+  <main>
+
+    <!-- header (don't cache it) -->
+    {{ partial "essentials/left-side.html" . }}
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      {{ partial "essentials/nav.html" . }}
+
+
+      {{ block "main" . }}{{ end }}
+
+
+    </div>
+
+
+  </main>
+
+
+
+    <!-- footer -->
+    {{ partial "essentials/footer.html" . }}
+
+
+    <!-- script (always cache it) -->
+    {{ partialCached "essentials/script.html" . }}
+  </body>
+</html>
