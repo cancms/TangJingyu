@@ -1,0 +1,149 @@
+name: Jingyu Tang
+avatar:  images/avatar.png
+role:  Data Analyst / Product Manager
+
+email: arthur2020210491@163.com
+
+phone:  +1 (628) 998-2355
+
+birthday:  November 14, 2001
+
+location:  San Francisco, California, USA
+
+about_me: " 
+
+<p>With a strong foundation in business analytics, I am passionate about leveraging data to drive strategic decision-making and create meaningful social and economic impact. My journey began with a Bachelor's in Business Administration, where I honed my analytical and technical skills through coursework in statistics, financial modeling, and Python programming.</p>
+
+<p>My background involves research and consulting consulting and research, including internships at PwC, where I optimized investment strategies using data analytics, and at the Chinese Academy of Sciences, where I contributed to research on AI-driven traffic modeling.</p> 
+
+<p>I have also led entrepreneurial initiatives, such as Our Pace, a mobile application that integrates digital marketing with social impact, and Wait U, an employment information platform for students.</p>
+
+<p>Currently, as an MSBA candidate at UC Davis, I am deepening my expertise in machine learning, data management, and advanced statistical modeling. My goal is to bridge business insights with technology-driven solutions, helping organizations harness the power of analytics for growth and innovation.</p>
+
+"
+
+what_i_can_do:
+
+  - service_name: Data Analytics
+    icon: images/icon-dev.svg
+    service_desc: Transforming raw data into actionable insights through statistical analysis, SQL queries, and dashboard visualizations.
+
+  - service_name: Product Management
+    icon: images/icon-design.svg
+    service_desc: Leading cross-functional teams to build user-centric products by aligning data, strategy, and customer needs.
+
+
+resume:
+
+  education:
+
+    - school: UC Davis, San Francisco
+      major: Master of Business Analytics
+      period: Aug. 2024 – Aug. 2025
+      intro: "Relevant courses: Data Management, Advanced Statistics, Machine Learning, Data Design & Representation"
+
+    - school: Dongbei University of Finance and Economics / University of Surrey
+      major: Bachelor of Business Administration (Top 10%)
+      period: Sep. 2020 – Jun. 2024
+      intro: "Courses: Microeconomics, Statistics, Python, Finance, Marketing, Business Decision Making <br> Award: First-Class Scholarship (2022)"
+
+  experience:
+
+    - company: MSBA Practicum (ExPrep Company)
+      role: Team Lead / Data Analyst
+      period: Aug. 2024 – Aug. 2025
+      intro: |
+        Built Tableau dashboards for 80k+ students across 80+ universities  <br>
+        Led data cleaning, SQL analysis, and survey insights extraction<br>
+        Delivered KPI-based recommendations to enhance grading tools<br>
+        
+
+    - company: PwC, Shenzhen
+      role: Data Analytics Intern
+      period: Jul. 2023 – Oct. 2023
+      intro: | 
+        Analyzed investment portfolios and risk using Python and Excel<br>
+        Improved benchmark investment strategy based on Sharpe ratio<br>
+        Created reports with data visualizations to present insights<br>
+        
+
+    - company: Chinese Academy of Sciences, Beijing
+      role: Research Intern
+      period: Feb. 2023 – Jun. 2023
+      intro: |
+        Researched AI-based traffic prediction models using GCN  <br>
+        Wrote literature review for scientific paper using LaTeX<br>
+        Supported industry research and translation tasks<br>
+
+
+    - company: OurPace – Sustainability & Charity Running App
+      role: Founder & Developer
+      period: Dec. 2022 – Jan. 2023
+      intro: |
+        Designed an app integrating charity and fitness based on user personas<br>
+        Used canvas tools and market research to validate business model<br>
+        Combined online and offline campaigns to boost engagement<br>
+
+
+
+skills:
+
+  - name: SQL
+    value: 80
+
+  - name: R
+    value: 70
+
+  - name: Python
+    value: 70
+
+  - name: Tableau
+    value: 70
+
+  - name: Entrepreneurship
+    value: 70
+
+  - name: Branding
+    value: 70
+
+
+
+
+projects:
+
+  - name: SQL Analysis
+    desc: Google Books SQL Project
+    image: images/project/p1.jpg
+    category: Data Analysis
+    link: https://github.com/codewithsadee/vcard-personal-portfolio
+
+
+  - name: Orizon
+    desc: Web development
+    image: images/project/p2.png
+    category: Data Analysis
+    link: https://github.com/JingyuTang
+
+
+  - name: Fundo
+    desc: Web design
+    image: images/project/p3.jpg
+    category: Data Analysis
+    link: https://github.com/JingyuTang
+
+
+  - name: Task Manager
+    desc: Applications
+    image: images/project/p4.png
+    category: Data Analysis
+    link: https://github.com/JingyuTang
+
+
+
+
+
+
+
+
+
+

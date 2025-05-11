@@ -1,0 +1,19 @@
+baseURL: "https://cancms.github.io/TangJingyu/"
+languageCode: en-us
+title: TangJingyu
+
+
+
+
+############################ Markup ##############################
+markup:
+    goldmark:
+        renderer:
+            unsafe: true
+            # hardWraps: true
+
+
+
+
+
+

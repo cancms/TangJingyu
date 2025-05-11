@@ -1,0 +1,55 @@
+{{ $profile := .Site.Data.profile }}
+
+<!--
+  - #ABOUT
+-->
+
+<article class="about  active" data-page="about">
+
+    <header>
+        <h2 class="h2 article-title">About me</h2>
+    </header>
+
+    <section class="about-text">
+        {{ $profile.about_me | markdownify | emojify  }}
+    </section>
+
+
+    <!--
+      - service
+    -->
+
+    <section class="service">
+
+        <h3 class="h3 service-title">What I can do</h3>
+
+        <ul class="service-list">
+
+
+            {{ range $index, $item := $profile.what_i_can_do }}
+            <li class="service-item">
+
+                <div class="service-icon-box">
+                    <img  src="{{ $item.icon | relLangURL }}"  alt="design icon" width="40">
+                </div>
+
+                <div class="service-content-box">
+                    <h4 class="h4 service-item-title">{{ $item.service_name }}</h4>
+
+                    <p class="service-item-text">
+                        {{ $item.service_desc }}
+                    </p>
+                </div>
+
+            </li>
+            {{ end }}
+
+        </ul>
+
+    </section>
+
+
+
+
+</article>
+
